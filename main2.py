@@ -2,7 +2,6 @@ import os
 import zipfile
 import streamlit as st
 import shutil
-from docx import Document
 import textract
 
 def convert_doc_to_txt(input_dir, output_dir):
