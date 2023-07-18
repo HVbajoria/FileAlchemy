@@ -79,7 +79,7 @@ def main():
         st.snow()
         # Process the zip file and get the processed zip file path
         processed_zip_file = process_zip_files(zip_path)
-        st.success('This is a success message!', icon="✅")
+        st.success('Processed Successfully!', icon="✅")
         # Offer the processed zip file for download
         st.download_button(
             label="Download Processed Zip File",
