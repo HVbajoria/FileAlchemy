@@ -2,8 +2,6 @@ import os
 import zipfile
 import streamlit as st
 import shutil
-import docx2txt
-import re
 from docx import Document
 import textract
 
